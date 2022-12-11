@@ -7,6 +7,7 @@ export default function Private() {
     const { store, actions } = useContext(Context);
     const navigate = useNavigate();
 
+    
     useEffect(() => {
         if (store.token && store.token !== "" && store.token !== undefined) {
             actions.getMessage();

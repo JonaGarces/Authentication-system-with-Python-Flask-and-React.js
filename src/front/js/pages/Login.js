@@ -33,7 +33,7 @@ const Login = () => {
               <h1 className=" text-center">Inicio de Sesion</h1>
             </div>
             {store.token && store.token !== "" && store.token !== undefined ? (
-              "Ya iniciaste sesion"
+              "Iniciaste sesion"
             ) : (
               <form onSubmit={handleSubmit}>
                 <div className=" col-8 mx-auto mb-4">

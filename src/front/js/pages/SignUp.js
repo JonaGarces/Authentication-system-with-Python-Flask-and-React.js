@@ -64,7 +64,7 @@ const SignUp = () => {
                     <div className='row'>
                         <div className='col-lg-4 col-12 mb-5 mx-auto'>
                             <label htmlFor='email' className='form-label'>Correo</label>
-                            <input type='email' className='form-control' id='email' aria-describedby='emailHelp' name='email' placeholder='alguien@example.com' required onChange={(e) => handleChange(e)} />
+                            <input type='email' className='form-control' id='email' aria-describedby='emailHelp' name='email' placeholder='example@example.com' required onChange={(e) => handleChange(e)} />
                         </div>
                         <div className='col-lg-4 col-12 mb-5 mx-auto'>
                             <label htmlFor='password' className='form-label'>Contraseña</label>
